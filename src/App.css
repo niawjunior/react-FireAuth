@@ -1,28 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
 .App {
   text-align: center;
+  margin-top:3em;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+body {
+  background-color: rgb(121, 199, 235);
+  font-family: 'Kanit', sans-serif;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
+.wrapper {
+  
   font-size: 1.5em;
+  margin-top: 3em;
 }
 
-.App-intro {
-  font-size: large;
+.button-login {
+  font-family: 'Kanit', sans-serif;
+  font-size: 1em;
+  color: white;
+  height: 2em;
+  background-color: rgb(8, 221, 150);
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.button-logout {
+  font-family: 'Kanit', sans-serif;
+  font-size: 1em;
+  height: 2em;
+  color: white;
+  background-color: rgb(250, 68, 92);
+}
+
+.profile {
+  margin-top: 2em;
+}
+
+.img {
+  border-radius: 50%;
+}
+
+.default {
+  width: 250px;
+  height: 250px;
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
 }
